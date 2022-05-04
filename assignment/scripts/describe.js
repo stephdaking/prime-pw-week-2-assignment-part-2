@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable and set it to the string Dane.
+// We check is our name variable is equal to mary
+// If it is we log Hi, Mary!
+// If it isn't we log How do you do? It will result in log How do you do
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare 2 variable. secret which has no value and code which in the number 123
+// We check if our code variable is equal to 123. If it is the secret variable will equal 'super' and code will be mutiplied by 2
+// Next we check if code is greater than 250. It is not since code is now 246. So nothing will happen.
+// We will then console log secret which will show super.
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declar 3 variabes. 2 number variables and one boolean variable.
+// We are checking if isStudent is equal to true AND zip is greater than 80000
+// If it is the first code block runs. If not we check if isStudent is false OR age is less than 30.
+// If either of those are true we will execute that code block.
+// This will console log 'Welcome to Prime'
 
 //CODE
 /*
@@ -133,7 +134,7 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// FIX we dont change the value of colorTwo to 'purple' in the conditional
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,7 +147,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//Fix currently we are checking if EITHER one is true. We need to check if both are true
+// using && instead of ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,7 +161,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//FIX Currently our code would output to 'no entry'. For a simple fix we need to flip the two console log spots.
 if(minAge <= age) {
   console.log('no entry');
 } else {
