@@ -72,7 +72,7 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // We declare 3 variabes. 2 number variables and one boolean variable.
 // We are checking if isStudent is true AND zip is greater than 80000
-// If it is the first code block runs. If not we check if isStudent is false OR age is less than 30.
+// If it is true the first code block runs. If not, we check if isStudent is false OR age is less than 30.
 // If either of those are true we will execute that code block.
 // This will console log 'Welcome to Prime'
 
@@ -135,6 +135,8 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 // FIX we dont change the value of colorTwo to 'purple' in the conditional
+// colorTwo = 'purple';
+
 if (mix === true) {
   colorOne = 'purple';
 }
