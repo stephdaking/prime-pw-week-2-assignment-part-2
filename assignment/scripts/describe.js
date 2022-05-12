@@ -7,7 +7,7 @@
 
 
 // 0. WRITE YOUR DESCRIPTION HERE
-// //EXAMPLE. We make a variable called number and set it to 1 as a number.
+//EXAMPLE. We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
 // We check if number is greater than or equal to 2. 2 is equal to 2, so
 // we console.log 'yes'.
@@ -114,8 +114,8 @@ if (isStudent === true && zip > 80000 ) {
 /*
 let number = 1;
 
-// FIX - number-- decrements number, but the instructions ask to increment. 
-// Should be number++.
+! FIX - number-- decrements number, but the instructions ask to increment. 
+! Should be number++.
 number--; 
 
 if (number >= 2) {
@@ -134,8 +134,9 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-// FIX we dont change the value of colorTwo to 'purple' in the conditional
-// colorTwo = 'purple';
+
+! FIX we dont change the value of colorTwo to 'purple' in the conditional
+! colorTwo = 'purple';
 
 if (mix === true) {
   colorOne = 'purple';
@@ -149,8 +150,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-// Fix currently we are checking if EITHER one is true. We need to check if both are true
-// using && instead of ||
+
+! Fix currently we are checking if EITHER one is true. We need to check if both are true
+! using && instead of ||
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
