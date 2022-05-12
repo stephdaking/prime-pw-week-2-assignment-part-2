@@ -70,8 +70,8 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We declar 3 variabes. 2 number variables and one boolean variable.
-// We are checking if isStudent is equal to true AND zip is greater than 80000
+// We declare 3 variabes. 2 number variables and one boolean variable.
+// We are checking if isStudent is true AND zip is greater than 80000
 // If it is the first code block runs. If not we check if isStudent is false OR age is less than 30.
 // If either of those are true we will execute that code block.
 // This will console log 'Welcome to Prime'
