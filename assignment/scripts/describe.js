@@ -149,8 +149,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-//Fix currently we are checking if EITHER one is true. We need to check if both are true
+// Fix currently we are checking if EITHER one is true. We need to check if both are true
 // using && instead of ||
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -163,7 +164,17 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-//FIX Currently our code would output to 'no entry'. For a simple fix we need to flip the two console log spots.
+
+! FIX Currently our code would output to 'no entry'. For a simple fix we need to flip the two console log spots
+
+!if(minAge <= age) {
+!  console.log('enter');
+!} else {
+!  console.log('no entry');
+!}
+
+
+
 if(minAge <= age) {
   console.log('no entry');
 } else {
